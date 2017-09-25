@@ -1,0 +1,28 @@
+var1 = variável de 16 bits
+
+Bloco1
+var1 = var1 - 10000
+testa o carry
+Carry igual a 1? var = var + 10000 e vá para o próximo bloco
+Carry igual a 0? incrementar DSP1 e voltar 3 comandos
+
+Bloco2
+var1 = var1 - 1000
+testa o carry
+Carry igual a 1? var = var + 1000 e vá para o próximo bloco
+Carry igual a 0? incrementar DSP2 e voltar 3 comandos
+
+Bloco3
+var1 = var1 - 100
+testa o carry
+Carry igual a 1? var = var + 100 e vá para o próximo bloco
+Carry igual a 0? incrementar DSP3 e voltar 3 comandos
+
+Bloco4
+var1 = var1 - 10
+testa o carry
+Carry igual a 1? var = var + 10 e vá para o próximo bloco
+Carry igual a 0? incrementar DSP4 e voltar 3 comandos
+
+Bloco5
+DSP5 = var1
